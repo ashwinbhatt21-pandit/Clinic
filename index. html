@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Jitendra Trivedi Clinic</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        header { text-align: center; background-color: #f0f0f0; padding: 20px; }
+        section { margin: 20px 0; }
+        form { max-width: 400px; margin: auto; }
+        label { display: block; margin-top: 10px; }
+        input, textarea { width: 100%; padding: 8px; margin-top: 5px; }
+        button { margin-top: 10px; padding: 10px; background-color: #007bff; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Dr. Jitendra Trivedi Clinic</h1>
+        <p>Your trusted healthcare provider.</p>
+    </header>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Dr. Jitendra Trivedi specializes in providing quality medical care. Contact us for consultations and treatments.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>For queries, call us at: <strong>+91-XXXXXXXXXX</strong> (Replace with actual mobile number)</p>
+        <p>For basic queries, email: <strong>drjitendra@example.com</strong> (Replace with actual Gmail)</p>
+    </section>
+    
+    <section id="message">
+        <h2>Send a Message</h2>
+        <p>Specify the treatment required in your message.</p>
+        <form action="#" method="post"> <!-- Replace # with actual form handler, e.g., a server endpoint -->
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Your Phone:</label>
+            <input type="tel" id="phone" name="phone">
+            
+            <label for="treatment">Treatment Required:</label>
+            <textarea id="treatment" name="treatment" rows="4" placeholder="Describe the treatment or query here..." required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Dr. Jitendra Trivedi Clinic. All rights reserved.</p>
+    </footer>
+</body>
+</html>
